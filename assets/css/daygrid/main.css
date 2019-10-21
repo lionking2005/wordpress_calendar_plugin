@@ -32,7 +32,10 @@
 
 .fc-dayGrid-view .fc-week-number,
 .fc-dayGrid-view .fc-day-number {
-  padding: 2px;
+  padding: 1px;
+  color: black;
+  box-shadow:none;
+  font-size:14px;
 }
 
 .fc-dayGrid-view th.fc-week-number,
@@ -58,6 +61,7 @@
   float: right;
   border-radius: 0 0 0 3px;
 }
+
 
 .fc-dayGrid-view .fc-day-top .fc-week-number {
   min-width: 1.5em;
